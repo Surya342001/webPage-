@@ -1,0 +1,145 @@
+.background{
+   /* background: url("../assest/black.jfif"); */
+   background-color: #9e9a83;
+   
+   background-size: "100%";
+   height: "100%";
+   background-size: cover;
+   background-position: center;
+}
+
+.country{
+   height: 20px;
+   width: 20px;
+   background-color: #d5e2f1;
+   border-width: 1;
+   border-color: aqua;
+}
+ .inputBox{
+   position: relative;
+   width: 250px;
+ }
+
+ .inputBox input{
+   width :100%;
+   padding:10px;
+   border:1px solid rgba(255,255,255,0.25);
+   background: #1d2b3a;
+   border-radius: 5px;
+   background: linear-gradient(134deg, rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0));
+   color:#1d2b3a;
+   font-size: 1em;
+
+  
+ }
+
+
+  .cool-submit-button {
+     background-color: #4CAF50;
+      background: linear-gradient(134deg, rgba(199, 166, 166, 0.582), rgba(255, 255, 255, 0));
+     /* Green background */
+     border: none;
+     /* Remove border */
+     color: #1d2b3a;
+     /* White text */
+     padding: 15px 32px;
+     /* Padding */
+     text-align: center;
+     /* Center text */
+     text-decoration: none;
+     /* Remove underline */
+     display: inline-block;
+     /* Make it behave like a block element */
+     font-size: 16px;
+     /* Font size */
+     margin: 4px 2px;
+     /* Margin */
+     cursor: pointer;
+     /* Add pointer cursor on hover */
+     border-radius: 8px;
+     /* Rounded corners */
+     transition-duration: 0.4s;
+     /* Smooth transition */
+     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+     /* Add shadow */
+  }
+
+ 
+ .cool-submit-button {
+    /* Your existing button styles here */
+
+    /* Animation */
+    transition-property: background-color, color, box-shadow;
+    transition-duration: 0.3s;
+    transition-timing-function: ease-out;
+ }
+
+ .cool-submit-button:hover {
+    background-color: #45a049;
+    /* Darker green on hover */
+    color: white;
+    /* White text on hover */
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+    /* Add bigger shadow on hover */
+    transform: translateY(-2px);
+    /* Move button 2px up on hover */
+ }
+ 
+ .inputBox select{
+      width: 100%;
+         padding: 10px;
+         border: 1px solid rgba(255, 255, 255, 0.25);
+         background: #1d2b3a;
+         border-radius: 5px;
+         background: linear-gradient(134deg, rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0));
+      
+         color: #1d2b3a;
+         font-size: 1em;
+ }
+ .inputBox textarea{
+   width: 100%;
+   height:100%;
+      padding: 10px;
+      border: 1px solid rgba(255, 255, 255, 0.50);
+      background: linear-gradient(134deg, rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0));
+      border-radius: 5px;
+   
+      color: #1d2b3a;
+      font-size: 1em;
+ }
+
+
+ .inputBox span{
+   position: absolute;
+   left:0;
+   padding: 10px;
+   pointer-events: none;
+   font-size: 1em;
+   color:"#1d2b3a";
+   text-transform: uppercase;
+   transition: 0.5s;
+ }
+
+
+ .inputBox input:valid~ span,
+ .inputBox input:focus ~span
+ {
+   color:#00dfc4;
+   transform:translateX(10px) translateY(-7px);
+   font-size: 0.65em;
+   font-weight: bold;
+   padding:0 10px;
+   background:#1d2b3a ;
+   border-left: 1px solid #00dfc4; 
+   border-right:1px solid #00dfc4 ;
+
+
+ }
+ .GlassContainer{
+   background: linear-gradient(134deg, rgba(255,255,255,0.1),rgba(255,255,255,0));
+   backdrop-filter: blur(10px);
+   border-radius: 10px;
+   border:1px solid rgba(255,255,255,0.18);
+   box-shadow: 0 8px 32px 0 rgba(0,0,0,0.37);
+   height:"90%"
+ }

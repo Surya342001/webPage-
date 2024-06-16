@@ -1,0 +1,74 @@
+.react-calendar {
+    background-color: rgb(183, 176, 176);
+    /* Light gray background */
+    border: none;
+    /* Remove default border */
+    border-radius: 5px;
+    /* Rounded corners */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    /* Subtle box shadow */
+    color: black;
+    /* Black font color */
+    font-family: sans-serif;
+    /* Modern font family */
+    padding: 1rem;
+    /* Add padding for content spacing */
+}
+
+/* Style specific calendar elements */
+.react-calendar .react-calendar-month {
+    background-color: #f5f5f5;
+    /* Lighter background for month header */
+    padding: 0.5rem;
+    /* Reduce padding in month header */
+    font-weight: bold;
+    /* Bold text for month header */
+}
+
+.react-calendar .react-calendar-weekday {
+    color: #808080;
+    /* Grayed out for weekdays */
+    font-size: 0.8rem;
+    /* Smaller font size for weekdays */
+}
+
+.react-calendar .react-calendar-tile {
+    border: 1px solid #ddd;
+    /* Light border for each day */
+    border-radius: 2px;
+    /* Subtle rounded corners for each day */
+    padding: 0.5rem;
+    /* Adjust padding for day cells */
+    cursor: pointer;
+    /* Indicate clickable days */
+}
+
+.react-calendar .react-calendar-tile--active {
+    background-color: #e0e0e0;
+    /* Light blue background for selected day */
+}
+
+.react-calendar .react-calendar-tile--hover {
+    background-color: #f0f0f0;
+    /* Light gray background on hover */
+}
+
+.inputBox input::-webkit-input-placeholder {
+    text-transform: uppercase;
+    color: #1d2b3a;
+    /* Dark color */
+}
+
+.inputBox input:-moz-placeholder {
+    text-transform: uppercase;
+    color: #1d2b3a;
+    /* Dark color */
+}
+
+.inputBox input::placeholder {
+    /* Modern browsers */
+    text-transform: uppercase;
+    color: #1d2b3a;
+    font-size: 1em;
+    /* Dark color */
+}
